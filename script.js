@@ -24,9 +24,10 @@ function updateMessage() {
           If you're here, Kindly leave within 10 min. 🙏</span>`;
       } else {
        seatMsg.innerHTML = 
-            `✅ <span class="free">The seat is free right now. You're good to sit! 😎.<br> But make sure to leave in 3:00PM 🙏.</span>`;
+            `✅ <span class="free">The seat is free right now. You're good to sit! 😎<br>But make sure to leave before 3:00PM 🙏</span>`;
       }
     }
     
+
 
     updateMessage();
